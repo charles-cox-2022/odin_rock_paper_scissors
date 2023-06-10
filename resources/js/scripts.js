@@ -17,14 +17,19 @@ function playGame(playerChoice, computerChoice) {
     let gameResult = checkWinner(playerChoice,computerChoice);
     console.log(gameResult);
     if (gameResult === 'win'){
+        playerScore++;
         document.getElementById("playerChoice").style.backgroundColor="green";
         document.getElementById("computerChoice").style.backgroundColor="red";
+        document.getElementById("score").textContent = `Player: ${playerScore} vs Computer: ${computerScore}`;
     } else if (gameResult === 'lose') {
+        computerScore++;
         document.getElementById("playerChoice").style.backgroundColor="red";
         document.getElementById("computerChoice").style.backgroundColor="green";
+        document.getElementById("score").textContent = `Player: ${playerScore} vs Computer: ${computerScore}`;
     } else {
         document.getElementById("playerChoice").style.backgroundColor="yellow";
         document.getElementById("computerChoice").style.backgroundColor="yellow";
+        document.getElementById("score").textContent = `Player: ${playerScore} vs Computer: ${computerScore}`;
     }
 }
 //Select Scissors
