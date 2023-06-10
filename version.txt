@@ -1,12 +1,6 @@
 0.2
-    Log Version goals to version.txt
-    Create HTML Outline
-    Create Script Outline
-    Create Skeleton
+    Create Game in JS
 0.3
-    Add Styles to css
-    Add HTML
+    Add HTML and CSS for game GUI
 0.4
-    Add Functions
-0.5
-    Fix any issues
+    Add a scoring System

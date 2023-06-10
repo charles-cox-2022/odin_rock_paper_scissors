@@ -9,8 +9,32 @@
     <script src="resources/js/scripts.js"></script>
 </head>
 <body>
+    <!--Body Box-->
+    <div id="bigBox">
+        <!--Primary Box to contain the game-->
+        <div id="gameBox">
+            <!--Title ROCK PAPER SCISSORS-->
+            <h1>Rock, Paper, Scissors</h1>
+            <!--Results Box Show two images, show a picture of the player choise and highlight the background around each to green / red depending on winner-->
+            <div id="resultsBox">
+                <div id="results">
+                    <img id="playerChoice" src="resources/images/rock.jpg">
+                    <h1 id="versus">Vs</h1>
+                    <img id="computerChoice" src="resources/images/scissors.jpg">
+                </div>
+            <!--Box with gameOptions 3 buttons with images of the choice-->
+                <div id="gameOptions">
+                    <button id="optionRock"><img class="gameOptionImg" src="resources/images/rock.jpg" onClick="selectRock()"></button>
+                    <button id="optionPaper"><img class="gameOptionImg" src="resources/images/paper.jpg" onClick="selectPaper()"></button>
+                    <button id="optionScissors"><img class="gameOptionImg" src="resources/images/scissors.jpg" onClick="selectScissors()"></button>
+                </div>
+            <!--future score row-->
+                <h3 id="score">Score: 000</h3>
+            </div>
+        </div>
+    </div>
    <script>
-    startGame();
+    //startGame();
    </script>
 </body>
 </html>

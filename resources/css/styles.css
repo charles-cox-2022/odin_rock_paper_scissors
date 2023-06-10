@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    color: black;
+}
+#bigBox {
+    background-color: antiquewhite;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#gameBox {
+    min-width: 90%;
+    min-height: 90%;
+    background-color: antiquewhite;
+    border-color: black;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#results {
+    display:flex;
+    justify-content: center;
+}
+#playerChoice, #computerChoice {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+#playerChoice {
+    background-color: green;
+}
+#computerChoice {
+    background-color: red;
+}
+.gameOptionImg {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+button {
+    background-color: transparent;
+    border-style: none;
+}
+h1 {
+    padding: 10px;
+}
