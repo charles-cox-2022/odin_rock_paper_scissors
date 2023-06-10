@@ -1,0 +1,12 @@
+0.2
+    Log Version goals to version.txt
+    Create HTML Outline
+    Create Script Outline
+    Create Skeleton
+0.3
+    Add Styles to css
+    Add HTML
+0.4
+    Add Functions
+0.5
+    Fix any issues
